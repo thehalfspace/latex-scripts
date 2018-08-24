@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1534980403 "main.tex" "main.pdf" "main" 1534980403
+["pdflatex"] 1534980403 "main.tex" "main.pdf" "main" 1535138736
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1480098701 1316 b636689f1933f24d1294acdf6041daaa ""
@@ -172,15 +172,15 @@
   "images/resultlongFZ/catalogue.png" 1534259790 104100 07720ee061e24f90f81014a4d4aa1803 ""
   "images/resultlongFZ/mfd.png" 1534258547 92474 f44393fbea633e37bad50c9f369a4b38 ""
   "images/resultlongFZ/stress_drop_7.png" 1534968374 112775 d1347dc6968df2b0fc6b0e110a1bb50d ""
-  "main.aux" 1534979339 4784 a631706edba2a6f043a6ffeafa811e74 ""
-  "main.nav" 1534979339 2608 6e9e0f521742509eb7004c62a5d5960b ""
-  "main.out" 1534979339 406 81b71e9eb71666eabf8ef72dd7ec8852 ""
-  "main.tex" 1534980401 5571 62d3a4e9f2821c01644092a1a8ebbd0e ""
+  "main.aux" 1534980407 4784 a631706edba2a6f043a6ffeafa811e74 ""
+  "main.nav" 1534980407 2608 6e9e0f521742509eb7004c62a5d5960b ""
+  "main.out" 1534980407 406 81b71e9eb71666eabf8ef72dd7ec8852 ""
+  "main.tex" 1535138381 5571 62d3a4e9f2821c01644092a1a8ebbd0e ""
   (generated)
+  "main.pdf"
+  "main.snm"
+  "main.out"
+  "main.nav"
   "main.toc"
   "main.aux"
   "main.log"
-  "main.pdf"
-  "main.out"
-  "main.nav"
-  "main.snm"
