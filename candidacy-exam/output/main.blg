@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-White space in argument---line 20 of file main.aux
- : \citation{lapusta_2000;
- :                         kaneko_2011; barbot_2012; jiang_lapusta_2016}
-I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: refs.bib
 I was expecting a `,' or a `}'---line 53 of file refs.bib
@@ -14,48 +10,45 @@ I was expecting a `,' or a `}'---line 53 of file refs.bib
 I'm skipping whatever remains of this entry
 Warning--string name "b15" is undefined
 --line 80 of file refs.bib
-Warning--I didn't find a database entry for "seitz_2000"
-Warning--I didn't find a database entry for "townend_zoback_2000"
-Warning--I didn't find a database entry for "rivera_kanamori_2000"
-You've used 49 entries,
+You've used 56 entries,
             1935 wiz_defined-function locations,
-            784 strings with 11924 characters,
-and the built_in function-call counts, 20031 in all, are:
-= -- 1993
-> -- 734
-< -- 31
-+ -- 246
-- -- 240
-* -- 1834
-:= -- 3453
-add.period$ -- 147
-call.type$ -- 49
-change.case$ -- 365
-chr.to.int$ -- 49
-cite$ -- 49
-duplicate$ -- 681
-empty$ -- 1463
-format.name$ -- 325
-if$ -- 3882
+            820 strings with 12928 characters,
+and the built_in function-call counts, 23066 in all, are:
+= -- 2303
+> -- 845
+< -- 35
++ -- 284
+- -- 276
+* -- 2105
+:= -- 3961
+add.period$ -- 168
+call.type$ -- 56
+change.case$ -- 418
+chr.to.int$ -- 56
+cite$ -- 56
+duplicate$ -- 788
+empty$ -- 1680
+format.name$ -- 374
+if$ -- 4481
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 49
-newline$ -- 248
-num.names$ -- 147
-pop$ -- 238
+missing$ -- 56
+newline$ -- 283
+num.names$ -- 168
+pop$ -- 276
 preamble$ -- 1
-purify$ -- 365
+purify$ -- 418
 quote$ -- 0
-skip$ -- 526
+skip$ -- 611
 stack$ -- 0
-substring$ -- 1763
-swap$ -- 49
-text.length$ -- 0
+substring$ -- 2036
+swap$ -- 65
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 294
+type$ -- 336
 warning$ -- 0
-while$ -- 171
+while$ -- 199
 width$ -- 0
-write$ -- 638
-(There were 2 error messages)
+write$ -- 729
+(There was 1 error message)

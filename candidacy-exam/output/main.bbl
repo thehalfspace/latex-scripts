@@ -13,6 +13,12 @@ Albertini, G. and Kammer, D.~S. (2017).
   heterogeneity in fault fracture energy}.
 \newblock {\em Journal of Geophysical Research (Solid Earth)}, 114:B03305.
 
+\bibitem[Barbot et~al., 2012]{barbot_2012}
+Barbot, S., Lapusta, N., and Avouac, J.-P. (2012).
+\newblock Under the hood of the earthquake machine: Toward predictive modeling
+  of the seismic cycle.
+\newblock {\em Science}, 336(6082):707--710.
+
 \bibitem[Ben-Zion, 2001]{benzion_2001}
 Ben-Zion, Y. (2001).
 \newblock Dynamic ruptures in recent models of earthquake faults.
@@ -35,6 +41,18 @@ Ben-Zion, Y. and Sammis, C.~G. (2003).
 Bezanson, J., Edelman, A., Karpinski, S., and Shah, V.~B. (2017).
 \newblock Julia: A fresh approach to numerical computing.
 \newblock {\em SIAM review}, 59(1):65--98.
+
+\bibitem[Blanpied et~al., 1991]{blanpied_1991}
+Blanpied, M., Lockner, D., and Byerlee, J. (1991).
+\newblock Fault stability inferred from granite sliding experiments at
+  hydrothermal conditions.
+\newblock {\em Geophysical Research Letters}, 18(4):609--612.
+
+\bibitem[Blanpied et~al., 1995]{blanpied_1995}
+Blanpied, M.~L., Lockner, D.~A., and Byerlee, J.~D. (1995).
+\newblock Frictional slip of granite at hydrothermal conditions.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  100(B7):13045--13064.
 
 \bibitem[Bonafede et~al., 2002]{bonafede_2002}
 Bonafede, M., Parenti, B., and Rivalta, E. (2002).
@@ -114,6 +132,12 @@ Huang, Y., Ampuero, J.-P., and Helmberger, D.~V. (2014).
 \newblock Earthquake ruptures modulated by waves in damaged fault zones.
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   119(4):3133--3154.
+
+\bibitem[Jiang and Lapusta, 2016]{jiang_lapusta_2016}
+Jiang, J. and Lapusta, N. (2016).
+\newblock Deeper penetration of large earthquakes on seismically quiescent
+  faults.
+\newblock {\em Science}, 352:1293--1297.
 
 \bibitem[Kanamori and Anderson, 1975]{kanamori_1975}
 Kanamori, H. and Anderson, D.~L. (1975).
@@ -212,6 +236,11 @@ Rice, J.~R. and Ben-Zion, Y. (1996).
 \newblock {\em Proceedings of the National Academy of Sciences},
   93(9):3811--3818.
 
+\bibitem[Rivera and Kanamori, 2002]{rivera_kanamori_2002}
+Rivera, L. and Kanamori, H. (2002).
+\newblock Spatial heterogeneity of tectonic stress and friction in the crust.
+\newblock {\em Geophysical Research Letters}, 29(6):12--1.
+
 \bibitem[Rubin and Ampuero, 2005]{rubin_ampuero_2005}
 Rubin, A. and Ampuero, J.-P. (2005).
 \newblock Earthquake nucleation on (aging) rate and state faults.
@@ -260,6 +289,12 @@ Schwartz, D.~P. and Coppersmith, K.~J. (1984).
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   89(B7):5681--5698.
 
+\bibitem[Seitz et~al., 2013]{seitz_2013}
+Seitz, G.~G., Biasi, G.~P., and Weldon, R.~J. (2013).
+\newblock An improved paleoseismic record of the san andreas fault at pitman
+  canyon.
+\newblock {\em Quaternary Geochronology}, pages 563--566.
+
 \bibitem[Shaw, 1995]{shaw_1995}
 Shaw, B.~E. (1995).
 \newblock Frictional weakening and slip complexity in earthquake faults.
@@ -283,6 +318,11 @@ Tok{\'e}, N.~A., Arrowsmith, J.~R., Young, J.~J., and Crosby, C.~J. (2006).
   parkfield segment of the san andreas fault.
 \newblock {\em Bulletin of the Seismological Society of America},
   96(4B):S221--S238.
+
+\bibitem[Townend and Zoback, 2000]{townend_zoback_2000}
+Townend, J. and Zoback, M.~D. (2000).
+\newblock How faulting keeps the crust strong.
+\newblock {\em Geology}, 28(5):399--402.
 
 \bibitem[Unsworth et~al., 1997]{unsworth_1997}
 Unsworth, M.~J., Malin, P.~E., Egbert, G.~D., and Booker, J.~R. (1997).
