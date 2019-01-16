@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1547593445 "main.aux" "main.bbl" "main" 1547593445
+["bibtex main"] 1547602067 "main.aux" "main.bbl" "main" 1547602067
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/base/apalike.bst" 1480098433 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1547593443 15349 1d90de1a6352c48b7756e74222293bdc ""
+  "main.aux" 1547602065 15169 a6efa8479ba279a7c7e68be0d5356cff ""
   "refs.bib" 1547593193 22174 a4975d964f394cacf0cf4c1e94ca9018 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1547593440 "main.tex" "main.pdf" "main" 1547593445
+["pdflatex"] 1547602063 "main.tex" "main.pdf" "main" 1547602067
   "../images/1.png" 1547427138 60548 941d38d007e06ff8aff9a71a51958c72 ""
   "../images/2.pdf" 1547426966 121438 428d217262588eeafab696d5e533cef7 ""
   "../images/3a.pdf" 1547411721 399431 7f89d2986eede5ef1a9461268a9ea7de ""
@@ -120,10 +120,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1535219931 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "main.aux" 1547593443 15349 1d90de1a6352c48b7756e74222293bdc ""
-  "main.bbl" 1547593246 14361 b135f50dd765fe04f2b307da9de0a776 "bibtex main"
-  "main.tex" 1547593439 36264 629424d2510ee95d307c5148be5ff1b6 ""
+  "main.aux" 1547602065 15169 a6efa8479ba279a7c7e68be0d5356cff ""
+  "main.bbl" 1547593445 14361 b135f50dd765fe04f2b307da9de0a776 "bibtex main"
+  "main.tex" 1547602061 36084 776bf71978b2caea763b6b36d39aebf2 ""
   (generated)
-  "main.aux"
-  "main.pdf"
   "main.log"
+  "main.pdf"
+  "main.aux"

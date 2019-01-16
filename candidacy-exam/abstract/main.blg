@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 53 of file refs.bib
+ : 
+ : keywords = {dynamic rupture, ground motion, low-velocity fault zone, slip pulse},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "b15" is undefined
+--line 80 of file refs.bib
+You've used 56 entries,
+            1935 wiz_defined-function locations,
+            820 strings with 12928 characters,
+and the built_in function-call counts, 23066 in all, are:
+= -- 2303
+> -- 845
+< -- 35
++ -- 284
+- -- 276
+* -- 2105
+:= -- 3961
+add.period$ -- 168
+call.type$ -- 56
+change.case$ -- 418
+chr.to.int$ -- 56
+cite$ -- 56
+duplicate$ -- 788
+empty$ -- 1680
+format.name$ -- 374
+if$ -- 4481
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 56
+newline$ -- 283
+num.names$ -- 168
+pop$ -- 276
+preamble$ -- 1
+purify$ -- 418
+quote$ -- 0
+skip$ -- 611
+stack$ -- 0
+substring$ -- 2036
+swap$ -- 65
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 336
+warning$ -- 0
+while$ -- 199
+width$ -- 0
+write$ -- 729
+(There was 1 error message)
