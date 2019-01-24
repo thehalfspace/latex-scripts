@@ -400,6 +400,15 @@ INPUT main.vrb
 OUTPUT main.vrb
 INPUT main.vrb
 INPUT main.vrb
+OUTPUT main.vrb
+INPUT main.vrb
+INPUT main.vrb
+INPUT images/5.png
+INPUT ./images/5.png
+INPUT ./images/5.png
+OUTPUT main.vrb
+INPUT main.vrb
+INPUT main.vrb
 INPUT images/1.png
 INPUT ./images/1.png
 INPUT ./images/1.png
