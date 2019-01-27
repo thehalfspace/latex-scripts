@@ -1,0 +1,74 @@
+% Theme inspired from https://blog.hamaluik.ca/posts/better-beamer-themes/
+% with minor changes: mainly color, will add more features as I learn
+
+% Geophysics theme
+% Author: Prithvi Thakur
+% Date Created: 25 Jan, 2019
+% Email: thehalfspace@pm.me
+
+% Import Packages
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage[none]{hyphenat}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+
+% Define Colors
+\definecolor{geophysicsBlack}{RGB}{43,40,40}
+\definecolor{geophysicsBlue}{RGB}{18,65,104}
+\definecolor{geophysicsWhite}{RGB}{255,255,255}
+\definecolor{geophysicsGrey}{RGB}{107,110,108}
+
+% use Adobe's Source Pro fonts:
+% Source Serif Pro: http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1966
+% Source Sans Pro: http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1959
+% Source Code Pro: http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960
+\setmainfont{Source Serif Pro}
+\setsansfont{Source Sans Pro}
+\setmonofont{Source Code Pro}
+
+% set colours
+\setbeamercolor{itemize item}{fg=geophysicsBlue}
+\setbeamercolor{enumerate item}{fg=geophysicsBlue}
+\setbeamercolor{alerted text}{fg=geophysicsBlue}
+\setbeamercolor{section in toc}{fg=geophysicsBlack}
+
+% set fonts
+\setbeamerfont{itemize/enumerate body}{size=\large}
+\setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+\setbeamerfont{itemize/enumerate subsubbody}{size=\small}
+
+% disable navigation
+\setbeamertemplate{navigation symbols}{}
+
+% disable "Figure:" in the captions
+\setbeamertemplate{caption}{\tiny\insertcaption}
+\setbeamertemplate{caption label separator}{}
+
+
+
+% We're drawing the title page ourselves, so blank out Beamer's implementation
+\setbeamertemplate{title page}{}
+
+% same thing with the frame titles
+\setbeamertemplate{frametitle}{}
+
+% Set counter to toggle progress bar
+\newcounter{showProgressBar}
+\setcounter{showProgressBar}{1}
+\newcounter{showSlideNumbers}
+\setcounter{showSlideNumbers}{1}
+\newcounter{showSlideTotal}
+\setcounter{showSlideTotal}{1}
+
+% use \makeatletter for our progress bar definitions
+\makeatletter
+\newcount\progressbar@tmpcounta% auxiliary counter
+\newcount\progressbar@tmpcountb% auxiliary counter
+\newdimen\progressbar@pbwidth %progressbar width
+\newdimen\progressbar@tmpdim % auxiliary dimension
+
+% make the progress bar go across the screen
+\progressbar@pbwidth=12.8cm
+
+
