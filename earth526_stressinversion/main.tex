@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  PREAMBLE : USE AT THE BEGINNING OF EVERY PRESENTATION 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{beamer}
+
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setsansfont{Roboto}[
+    Path = /usr/local/texlive/2017/texmf-dist/fonts/truetype/google/roboto/,
+    Extension =.ttf,
+    ItalicFont = *-RegularItalic,
+    BoldFont = *-Black,
+    UprightFont = *-Regular ]
+
+% set beamer fonts
+\setbeamerfont{title}{size=\Huge}
+% \setbeamerfont{itemize/enumerate body}{size=\large}
+% \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+% \setbeamerfont{itemize/enumerate subsubbody}{size=\small}
+\setbeamerfont{frametitle}{size=\huge}
+
+% Change default title color
+\usepackage{xcolor}
+\definecolor{myblue}{RGB}{18, 65, 104}  % title color
+\definecolor{myhl}{RGB}{21, 126, 186}   % texthighlight color
+\definecolor{myblack}{RGB}{43, 40, 40}
+\setbeamercolor{titlelike}{parent=structure,fg=myblue}
+
+% Chaneg bullet points
+% \setbeamertemplate{itemize items}{\circle}
+\setbeamercolor*{item}{fg=myblue}
+
+% disable navigation
+\setbeamertemplate{navigation symbols}{}
+
+% disable "Figure:" in the captions
+\setbeamertemplate{caption}{\tiny\insertcaption}
+\setbeamertemplate{caption label separator}{}
+
+% set new command for code/highlight
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\hl}[1]{\textcolor{myhl}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------
+% BEGIN DOCUMENT
+%----------------
+\title{\textbf{Slip on Faults and Stress Inversion}}
+\date{Jan 30, 2019}
+\author{Prithvi Thakur}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{\textbf{Anderson's Theory of Faulting}}
+    \begin{itemize}
+        \item Earth's free surface cannot support shear, therefore, one of the principal stresses has to be vertical. \hl{Normal, Reverse, Strike-Slip Faulting}.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Anderson's Theory of Faulting}}
+    \begin{itemize}
+        \item Limitations: Only works for intact rocks near the free surface. 
+        \item More realistic faulting style: oblique-slip faulting. These occur on pre-existing weakness planes and at a depth, therefore none of the principal stresses are truly vertical.
+        \item \hl{Pre-existing weakness:} Reactivated faults, bedding planes, weak layer (shale, salt), foliations, anisotropy in materials, etc.
+    \end{itemize}
+\end{frame}
+
+\end{document}
