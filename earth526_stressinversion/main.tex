@@ -28,6 +28,7 @@
 % \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
 % \setbeamerfont{itemize/enumerate subsubbody}{size=\small}
 \setbeamerfont{frametitle}{size=\huge}
+\DeclareMathSizes{12}{12.5}{9}{9}
 
 % Change default title color
 \usepackage{xcolor}
@@ -37,11 +38,31 @@
 \setbeamercolor{titlelike}{parent=structure,fg=myblue}
 
 % Chaneg bullet points
-% \setbeamertemplate{itemize items}{\circle}
+% \setbeamertemplate{itemize items}{\setlength\itemsep{1em}}
 \setbeamercolor*{item}{fg=myblue}
 
 % disable navigation
 \setbeamertemplate{navigation symbols}{}
+
+% Add progressbar
+\setbeamercolor{progress bar progress}{use=progress bar,bg=progress bar.fg}
+\defbeamertemplate{footline}{progress bar}{%
+    \ifnum\thepage>1\relax
+        \dimen0=\paperwidth%
+        \multiply\dimen0 by \insertframenumber
+        \divide\dimen0 by \inserttotalframenumber
+        \edef\progressbarwidth{\the\dimen0}
+
+        \leavevmode%
+        \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex]{progress bar}
+        \begin{beamercolorbox}[wd=\progressbarwidth,ht=2.25ex,dp=1ex]{progress bar progress}
+        \end{beamercolorbox}%
+    \end{beamercolorbox}%
+\fi
+}
+\setbeamertemplate{footline}[progress bar]
+\setbeamercolor{progress bar}{fg=myblue,bg=white!70!black}
+
 
 % disable "Figure:" in the captions
 \setbeamertemplate{caption}{\tiny\insertcaption}
@@ -56,6 +77,8 @@
 %----------------
 % BEGIN DOCUMENT
 %----------------
+\graphicspath{{/images/}}
+
 \title{\textbf{Slip on Faults and Stress Inversion}}
 \date{Jan 30, 2019}
 \author{Prithvi Thakur}
@@ -64,18 +87,54 @@
 
 \maketitle
 
+\linespread{1.3}
+
 \begin{frame}{\textbf{Anderson's Theory of Faulting}}
     \begin{itemize}
         \item Earth's free surface cannot support shear, therefore, one of the principal stresses has to be vertical. \hl{Normal, Reverse, Strike-Slip Faulting}.
     \end{itemize}
+    \begin{figure}
+        \includegraphics[width=1\linewidth]{images/anderson}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{\textbf{Anderson's Theory of Faulting}}
     \begin{itemize}
-        \item Limitations: Only works for intact rocks near the free surface. 
+        \item \hl{Limitation:} Only works for intact rocks near the free surface.
+        \item \hl{Limitation:} Can't explain low angle normal faults
         \item More realistic faulting style: oblique-slip faulting. These occur on pre-existing weakness planes and at a depth, therefore none of the principal stresses are truly vertical.
         \item \hl{Pre-existing weakness:} Reactivated faults, bedding planes, weak layer (shale, salt), foliations, anisotropy in materials, etc.
     \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Wallace-Bott Hypothesis}}
+    Wallace (1951) suggested that \hl{slip on faults occur along the direction and orientation of maximum shear stress}. Bott (1959) derived the equations for the same.
+    \\~\\
+    Why hypothesis? Due to the following assumptions:
+    \begin{itemize}
+        \item Faults move during the same tectonic event independently.
+        \item No plasticity/ductility during deformation.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Fault Geometry}}
+    \begin{figure}
+        \includegraphics[width=1\linewidth]{images/fault}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{\textbf{Stress Tensor}}
+    \begin{figure}
+        \includegraphics[width=0.7\linewidth]{images/stressellipse}
+    \end{figure}
+    Another way of representing stress state just like Mohr's circle. The intersection of any plane passing through the center of this ellipsoid with it would give us the stress vector on that plane.
+    \\~\\
+    Shape of the stress ellipsoid: stress ratio = $\frac{\sigma_2 - \sigma_3}{\sigma_1 - \sigma_3}$
+\end{frame}
+
+\begin{frame}{\textbf{Estimating Stresses}}
+    Given slip on a fault plane and the orientation of fault plane, we can calculate four out of the six components of the principal stress tensor. For the other two components, we need more information like the pore fluid pressure and the depth of burial of the fault.
 \end{frame}
 
 \end{document}
