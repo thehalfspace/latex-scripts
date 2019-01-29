@@ -72,6 +72,8 @@
 \newcommand{\code}[1]{\texttt{#1}}
 \newcommand{\hl}[1]{\textcolor{myhl}{#1}}
 
+% use package for text positioning
+\usepackage[absolute,overlay]{textpos}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------
@@ -102,9 +104,15 @@
     \begin{itemize}
         \item \hl{Limitation:} Only works for intact rocks near the free surface.
         \item \hl{Limitation:} Can't explain low angle normal faults
-        \item More realistic faulting style: oblique-slip faulting. These occur on pre-existing weakness planes and at a depth, therefore none of the principal stresses are truly vertical.
+        \item More realistic faulting style: \hl{oblique-slip faulting}. These occur on pre-existing weakness planes and at a depth, therefore none of the principal stresses are truly vertical.
         \item \hl{Pre-existing weakness:} Reactivated faults, bedding planes, weak layer (shale, salt), foliations, anisotropy in materials, etc.
     \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Oblique-slip Faulting}}
+    \begin{figure}
+        \includegraphics[width=0.6\linewidth]{images/obliquefault}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{\textbf{Wallace-Bott Hypothesis}}
@@ -118,23 +126,134 @@
 \end{frame}
 
 \begin{frame}{\textbf{Fault Geometry}}
+    Range of values for: \\
+    Strike: $[0,360]$; Dip: $[0,90]$; Rake: $[-90,90]$
+
     \begin{figure}
         \includegraphics[width=1\linewidth]{images/fault}
     \end{figure}
 \end{frame}
 
+\begin{frame}{\textbf{Measuring Fault Slip}}
+    We can obtain slip on faults/discontinouities using various methods. All of these can help us constrain stresses.
+    \begin{itemize}
+        \item<1-> Mesoscale fault outcrops
+        \item<2-> Earthquake focal mechanisms
+        \item<3-> Borehole breakouts
+        \item<4-> Microstructures: Calcite twinning
+    \end{itemize}
+\end{frame}
+\begin{frame}{\textbf{Measuring Fault Slip}}
+    We can obtain slip on faults/discontinouities using various methods. All of these can help us constrain stresses.
+    \begin{itemize}
+        \item Mesoscale fault outcrops
+        \item \hl{Earthquake focal mechanisms}
+        \item Borehole breakouts
+        \item Microstructures: Calcite twinning
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Earthquake Focal Mechanism}}
+    \begin{figure}
+        \includegraphics[width=1\linewidth]{images/fm1}
+    \end{figure}
+\end{frame}
+\begin{frame}{\textbf{Earthquake Focal Mechanism}}
+    \begin{figure}
+        \includegraphics[width=1\linewidth]{images/fm2}
+    \end{figure}
+\end{frame}
+\begin{frame}{\textbf{Stereographic Projection}}
+    \begin{figure}
+        \includegraphics<1>[width=1\linewidth]{images/stereo2}
+        \includegraphics<2>[width=1\linewidth]{images/stereo}
+    \end{figure}
+\end{frame}
+\begin{frame}{\textbf{Earthquake Focal Mechanism}}
+    \begin{columns}[t]
+        \column{.5\textwidth}
+            \centering
+                \includegraphics<1->[width=0.7\linewidth]{images/nfm} \\
+                \includegraphics<3->[width=0.7\linewidth]{images/rfm}
+        \column{.5\textwidth}
+            \centering
+                \includegraphics<2->[width=0.7\linewidth]{images/ssfm} \\
+                \includegraphics<4->[width=0.7\linewidth]{images/osfm}
+    \end{columns} 
+\end{frame}
+
+\begin{frame}{\textbf{Determining Focal Mechanism}}
+    \begin{itemize}
+        \item<1-> First motion of P-wave. It can give orientation of fault plane but doesn't give much more information
+        \item<2-> Moment Tensor inversion: The representation of source strength and fault orientation. If we assume earth's structure, we can calculate green's function and estimate moment tensor components and location of centroid using waveform inversion.
+    \end{itemize}
+\end{frame}
 
 \begin{frame}{\textbf{Stress Tensor}}
     \begin{figure}
-        \includegraphics[width=0.7\linewidth]{images/stressellipse}
+        \includegraphics<1->[width=0.7\linewidth]{images/stressellipse}
     \end{figure}
+
+    \pause%
+    
     Another way of representing stress state just like Mohr's circle. The intersection of any plane passing through the center of this ellipsoid with it would give us the stress vector on that plane.
     \\~\\
     Shape of the stress ellipsoid: stress ratio = $\frac{\sigma_2 - \sigma_3}{\sigma_1 - \sigma_3}$
 \end{frame}
 
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth]{images/obliquestress}
+    \end{figure}
+
+    \pause%
+
+    \begin{align*}
+        \mathbf{\sigma} = \mathbf{R}^T.\mathbf{\sigma'}.\mathbf{R} \\
+        \mathbf{\sigma}_0 = (\mathbf{\sigma'} - \mathbf{I}k_1)k_2 \\
+        \mathbf{\sigma}_0 = 
+        \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & \phi & 0 \\
+            0 & 0 & 0
+        \end{bmatrix}
+    \end{align*}
+    if $k_1 = 1/(\sigma_1 - \sigma_3)$ and $k_2 = -\sigma_3$ and $\phi = \frac{\sigma_2 - \sigma_3}{\sigma_1 - \sigma_3}$
+
+\end{frame}
+
+
 \begin{frame}{\textbf{Estimating Stresses}}
-    Given slip on a fault plane and the orientation of fault plane, we can calculate four out of the six components of the principal stress tensor. For the other two components, we need more information like the pore fluid pressure and the depth of burial of the fault.
+    \begin{itemize}
+        \item<1->\hl{Forward Problem}: Given a stress tensor, compute the slip on multiple faults with different orientations.
+        \item<2->\hl{Inverse Problem}: Given slip on a fault plane and the orientation of fault plane, we can calculate four out of the six components of the principal stress tensor. For the other two components, we need more information like the pore fluid pressure and the depth of burial of the fault.
+\end{itemize}
+\end{frame}
+\begin{frame}{\textbf{Estimating Stresses}}
+    \begin{columns}[t]
+        \column{.6\textwidth}
+            \begin{figure}
+                \includegraphics<1->[width=1\linewidth]{images/fault}
+            \end{figure}
+        \column{.4\textwidth}
+            \begin{itemize}
+                \item<2-> $\mathbf{\sigma}.\mathbf{n} = \mathbf{T}$
+                \item<3-> $(\mathbf{T}.\mathbf{n})\mathbf{n}$ = the normal component
+                \item<4-> $\mathbf{T}-$ normal component = shear component
+            \end{itemize}
+    \end{columns}
+    
+\end{frame}
+
+\begin{frame}{\textbf{Estimating Stresses}}
+    \begin{itemize}
+        \item<1-> \hl{Input parameters}: Strike, dip, rake. This implies we know the normal vector the slip vector for each fault plane.
+        \item<2-> Compute the theoretical slip direction for each of the given fault plane using arbitrary stress tensor.
+        \item<3-> Minimize the misfit between theoretical and observed slip direction.
+        \item<4-> Depending on the inversion technique used, update the arbitrary stress tensor till you get the best fit.
+    \end{itemize}
+
 \end{frame}
 
 \end{document}
