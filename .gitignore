@@ -1,6 +1,6 @@
 texput.log
-/*.aux
-/*.fdb_latexmk
-/*.log
-/*.nav
-/*.syntex.gz
+*.aux
+*.fdb_latexmk
+*.log
+*.nav
+*.syntex.gz
