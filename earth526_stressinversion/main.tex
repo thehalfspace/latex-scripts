@@ -27,8 +27,8 @@
 % \setbeamerfont{itemize/enumerate body}{size=\large}
 % \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
 % \setbeamerfont{itemize/enumerate subsubbody}{size=\small}
-\setbeamerfont{frametitle}{size=\huge}
-\DeclareMathSizes{12}{12.5}{9}{9}
+\setbeamerfont{frametitle}{size=\Large}
+\DeclareMathSizes{14}{14.5}{11}{11}
 
 % Change default title color
 \usepackage{xcolor}
@@ -170,16 +170,10 @@
     \end{figure}
 \end{frame}
 \begin{frame}{\textbf{Earthquake Focal Mechanism}}
-    \begin{columns}[t]
-        \column{.5\textwidth}
-            \centering
-                \includegraphics<1->[width=0.7\linewidth]{images/nfm} \\
-                \includegraphics<3->[width=0.7\linewidth]{images/rfm}
-        \column{.5\textwidth}
-            \centering
-                \includegraphics<2->[width=0.7\linewidth]{images/ssfm} \\
-                \includegraphics<4->[width=0.7\linewidth]{images/osfm}
-    \end{columns} 
+        \includegraphics<3>[width=0.5\linewidth]{images/nfm} 
+        \includegraphics<1>[width=0.5\linewidth]{images/rfm}
+        \includegraphics<2>[width=0.5\linewidth]{images/ssfm}
+        \includegraphics<4>[width=0.5\linewidth]{images/osfm}
 \end{frame}
 
 \begin{frame}{\textbf{Determining Focal Mechanism}}
@@ -255,8 +249,10 @@
 \end{frame}
 
 \begin{frame}{\textbf{Practice Session}}
-        
-    \center{\Large{Stresses along the Sumatra-Andaman subduction zone}}
+    \large{Stresses along the Sumatra-Andaman subduction zone}
+    \begin{figure}
+        \includegraphics[width=0.6\linewidth]{images/sumatra}
+    \end{figure}
 \end{frame}
 
 \end{document}
