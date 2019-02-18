@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1550464261 "main.aux" "main.bbl" "main" 1550464386
+["bibtex main"] 1550502890 "main.aux" "main.bbl" "main" 1550502899
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/base/apalike.bst" 1480098433 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1550464259 15297 62d27e638f1413cdc637a2583af9cda9 ""
-  "refs.bib" 1547593193 22174 a4975d964f394cacf0cf4c1e94ca9018 ""
+  "main.aux" 1550502895 15397 40a268b4a605010a9e08b2c07f38773e ""
+  "refs.bib" 1550502598 22887 69c32f8a4eb690c1913d59962d2c047b ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1550464386 "main.tex" "main.pdf" "main" 1550464386
+["pdflatex"] 1550502899 "main.tex" "main.pdf" "main" 1550502899
   "../images/1.png" 1547427138 60548 941d38d007e06ff8aff9a71a51958c72 ""
   "../images/2.pdf" 1547426966 121438 428d217262588eeafab696d5e533cef7 ""
   "../images/3a.pdf" 1547411721 399431 7f89d2986eede5ef1a9461268a9ea7de ""
@@ -30,8 +30,8 @@
   "../images/7b2.png" 1547413434 169329 b3b83e047778e14f255b83bd7114b2d8 ""
   "../images/7c1.png" 1547435102 158264 d5063cf8d9f633d8828b5d4572d6d235 ""
   "../images/7c2.png" 1547435111 165300 4e06e2bdd3917d4265f1a4016e3ab821 ""
-  "../images/8a.pdf" 1547446895 230351 41a937a5db460799fc3ca527f73d16c6 ""
-  "../images/8b.pdf" 1547446927 260313 7f78d547bd2a5bbb4205f325a7cba8eb ""
+  "../images/8a.png" 1550502737 213568 ae1590515d2a7911668ae6d728440423 ""
+  "../images/8b.png" 1550502794 199112 5fe8377c1c2cf57bfcf5ec5fbcaabcc0 ""
   "../images/8c.pdf" 1547452226 89490 9119106d53ad2f14a49ffc2d4a188401 ""
   "../images/8d.pdf" 1547451520 116582 a6135de8457f6fa8cf861be8f3c9c597 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -100,6 +100,7 @@
   "/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def" 1480098821 7767 aa88823823f5e767d79ea1166ab1ae74 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu" 1487721667 4919 76510afd60e8282294f944c2f9f5103b ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def" 1487721667 7784 325a2a09984cb5c4ff230f9867145ad3 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty" 1480098823 5869 94335281ffcab47f341cf07ea8220e30 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty" 1480098823 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty" 1480098823 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutm.fd" 1480098829 640 e9faa3c895b5b0d2cc1c1f7ae5b1e92b ""
@@ -131,10 +132,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1535219931 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "main.aux" 1550464259 15297 62d27e638f1413cdc637a2583af9cda9 ""
-  "main.bbl" 1550464262 14361 b135f50dd765fe04f2b307da9de0a776 "bibtex main"
-  "main.tex" 1550464385 37486 f7194b659fa87a9d5b2d8f04f4dba067 ""
+  "main.aux" 1550502895 15397 40a268b4a605010a9e08b2c07f38773e ""
+  "main.bbl" 1550502890 14937 df8e42f921cdee4fa74916b8c02e5f23 "bibtex main"
+  "main.tex" 1550502898 40530 f7db9879b0bc6c28d16bb127eee8546c ""
   (generated)
+  "main.pdf"
   "main.aux"
   "main.log"
-  "main.pdf"

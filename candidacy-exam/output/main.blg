@@ -10,45 +10,45 @@ I was expecting a `,' or a `}'---line 53 of file refs.bib
 I'm skipping whatever remains of this entry
 Warning--string name "b15" is undefined
 --line 80 of file refs.bib
-You've used 56 entries,
+You've used 58 entries,
             1935 wiz_defined-function locations,
-            820 strings with 12928 characters,
-and the built_in function-call counts, 23066 in all, are:
-= -- 2303
-> -- 845
+            830 strings with 13333 characters,
+and the built_in function-call counts, 23906 in all, are:
+= -- 2377
+> -- 901
 < -- 35
-+ -- 284
-- -- 276
-* -- 2105
-:= -- 3961
-add.period$ -- 168
-call.type$ -- 56
-change.case$ -- 418
-chr.to.int$ -- 56
-cite$ -- 56
-duplicate$ -- 788
-empty$ -- 1680
-format.name$ -- 374
-if$ -- 4481
++ -- 304
+- -- 296
+* -- 2187
+:= -- 4118
+add.period$ -- 174
+call.type$ -- 58
+change.case$ -- 438
+chr.to.int$ -- 58
+cite$ -- 58
+duplicate$ -- 815
+empty$ -- 1726
+format.name$ -- 396
+if$ -- 4635
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 283
-num.names$ -- 168
-pop$ -- 276
+missing$ -- 58
+newline$ -- 293
+num.names$ -- 174
+pop$ -- 292
 preamble$ -- 1
-purify$ -- 418
+purify$ -- 438
 quote$ -- 0
-skip$ -- 611
+skip$ -- 632
 stack$ -- 0
-substring$ -- 2036
-swap$ -- 65
+substring$ -- 2066
+swap$ -- 67
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 336
+type$ -- 348
 warning$ -- 0
-while$ -- 199
+while$ -- 204
 width$ -- 0
-write$ -- 729
+write$ -- 755
 (There was 1 error message)
